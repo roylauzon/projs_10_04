@@ -1,0 +1,43 @@
+{
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "7dcee04c-10e7-4ec8-8206-935fbc1b815a",
+        "ProjectName": "projectName",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {
+              "BuildMethod": "CreateTwoDacpacs",
+              "AddObjectsToModelMethod": "Aggregate",
+              "DMLTransaction": true
+            }
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null
+    }
+  ],
+  "GlobalConfigurations": null,
+  "RepositoryConfiguration": null,
+  "GeneralConfigurations": {
+    "SupportMultiDatabasePerProject": false
+  }
+}
