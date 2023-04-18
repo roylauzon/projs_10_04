@@ -81,7 +81,26 @@
         "ProjectId": "65e07c1d-6306-472d-a1e2-9dc23609615e",
         "ProjectName": "MySQL",
         "DBTypeName": "MySQL",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "e787372c-1d6a-4ac8-9717-7b6a5fb88bd2",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "f7f95ad6-74e5-4e86-a81f-651f4266c378",
+                "DatabaseAliasName": "mysql1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/mysql8_db1_18_04.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -106,7 +125,31 @@
       "UserData": [
         {
           "UserName": "roylauzon",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "f7f95ad6-74e5-4e86-a81f-651f4266c378",
+              "DatabaseAliasName": "mysql1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "MySQL",
+                    "host": "localhost",
+                    "port": "3306",
+                    "security": "Prefered",
+                    "username": "root",
+                    "dbName": "roy",
+                    "Password": "qrE4JauJd0gM7CQ0IggpFA=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "sB2Z+Cv9yELTbFQWiOKH08s5CDTHh4H7FElza4/SYBJQH1/b5+RTPSzdaGD6ymmh"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
