@@ -72,6 +72,33 @@
               }
             }
           ]
+        },
+        {
+          "UserName": "moshelevilama",
+          "DatabasesData": [
+            {
+              "DatabaseId": "49f6925f-7c11-40f7-b26b-4a59a4b048ad",
+              "DatabaseAliasName": "asdas",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sc2",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon76",
+                "Password": "NVzXVPxyYd2BY4ki6nSFGyllDd3tCfbgdnxuyQ8dllRtjIlwp2XD3hg25MbKSiGI"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
